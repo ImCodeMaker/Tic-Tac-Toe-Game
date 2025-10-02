@@ -17,6 +17,7 @@ export default function App() {
     currentSquares[userInput] = isXNext ? "X" : "O";
     setSquare(currentSquares);
     setIsXNext(!isXNext);
+    //XD
     squares = null
 
     let winnerResult = checkWinner(currentSquares);
