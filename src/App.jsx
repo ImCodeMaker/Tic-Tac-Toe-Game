@@ -18,7 +18,7 @@ export default function App() {
     setSquare(currentSquares);
     setIsXNext(!isXNext);
     //XD
-    squares = null
+    squares = true
 
     let winnerResult = checkWinner(currentSquares);
 
